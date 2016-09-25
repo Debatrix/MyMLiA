@@ -1,0 +1,28 @@
+// 将设置放入此文件中以覆盖默认值和用户设置。
+{
+    // Whether to lint Python files using pep8
+    "python.linting.pep8Enabled": true,
+
+    "python.formatting.provider": "autopep8",
+
+    "python.linting.pylintEnabled" : false,
+
+    "python.linting.enabled": true,
+
+    "python.linting.pep8Path": "/media/debatrix/Coding/anaconda2/lib/python2.7/site-packages/pep8.pyc",
+
+    // 控制除了 "Tab" 以外，是否还应在 "Enter" 时接受建议。帮助避免“插入新行”或“接受建议”之间的歧义。
+    "editor.acceptSuggestionOnEnter": false,
+
+    // 控制字体大小。
+    "editor.fontSize": 14,
+
+    // 控制在多少个字符后编辑器会自动换到下一行。将其设置为 0 则将打开视区宽度换行(自动换行)。将其设置为 -1 则将强制编辑器始终不换行。
+    "editor.wrappingColumn": 78,
+
+    // 控制换行的行的缩进。可以是"none"、 "same" 或 "indent"。
+    "editor.wrappingIndent": "indent",
+
+    // 显示垂直标尺的列
+    "editor.rulers": [78]
+}
